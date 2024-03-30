@@ -1,0 +1,130 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+
+main{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+}
+
+#box-login{
+   width: 100%;
+   height:100%;
+   padding: 7%;
+   background-image: linear-gradient( 180deg,  hsl(266deg 88% 73%) 0%,  hsl(266deg 80% 72%) 20%,  hsl(266deg 73% 71%) 30%, hsl(266deg 66% 70%) 39%,hsl(266deg 59% 69%) 46%,hsl(256deg 57% 70%) 53%, hsl(239deg 56% 72%) 60%,hsl(223deg 63% 70%) 66%,hsl(212deg 68% 67%) 71%,hsl(209deg 73% 66%) 76%,hsl(210deg 76% 68%) 81%, hsl(210deg 80% 70%) 86%, hsl(211deg 85% 72%) 90%, hsl(211deg 88% 74%) 93%, hsl(207deg 87% 74%) 96%, hsl(203deg 86% 75%) 99%, hsl(199deg 86% 76%) 100%,  hsl(195deg 85% 77%) 100%);
+   color: #fff;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+
+#box-login h1{
+   text-align: center;
+   margin-top: 15% ;
+
+}
+
+#subtitulo {
+   text-align: center;
+   font-size: 1.2em;
+   margin-bottom:30px;
+}
+ 
+.box_form{
+   width: 100%;
+   height: 55px;
+   padding-left: 4%;
+   border-radius: 11px;
+   margin-bottom: 9px;
+   outline: none;
+   border-color: #fff;
+   border-style: solid;
+   background-color: #ffffff83;
+}
+
+.box_form::placeholder{
+   color: rgba(255, 255, 255, 0.589);
+}
+
+#btn-logar{
+      width: 100%;
+      height: 55px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      padding-left: 2%;
+      border-radius: 11px;
+      outline: none;
+      border: none;
+      font-weight:bold;
+      font-size: 1.2em;
+      color: #2b2b2bd5;
+      background: #ffffff;
+}
+ 
+#logar_outra{
+   width:50%;
+   text-align: center;
+   margin-left: 80.63px;
+   font-size: 0.8em;
+}
+
+#l1{
+   width:25%;
+   float: left;
+   margin-top: 6px;
+  
+}
+
+#l2{
+   width:25%;
+   float: right;
+   margin-top: 6px;
+   
+}
+
+#entrar-de-outra-forma{
+   margin-top: 30px;
+   margin-bottom: 20px;
+}
+
+#btn-google{
+   width: 48%;  
+   height: 50px;
+   border-radius: 13px;
+   border: none;
+
+}
+
+#icon-google{
+   width: 20%;
+   height: 70%;
+   margin-top: 6.75px;
+   margin-bottom: 6.75px;
+}
+
+#btn-facebook{
+   width: 48%; 
+   height: 50px;
+   float: right;
+   border-radius: 13px;
+   border: none;
+}
+
+#icon-facebook{
+   width: 20%;
+   height: 70%;
+   margin-top: 6.75px;
+   margin-bottom: 6.75px;
+}
+
+#conta_existente{
+   margin: 0 auto;
+   text-align: center;
+   margin-top: 20%;
+}
